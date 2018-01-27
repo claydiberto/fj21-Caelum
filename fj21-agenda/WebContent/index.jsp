@@ -1,4 +1,3 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!DOCTYPE html>
@@ -8,9 +7,9 @@
 		<title>Contatos</title>
 	</head>
 	<body>
-		<c:import url="cabecalho.html" />
+		<c:import url="cabecalho.jsp" />
 		<div>
-        	<a href="novo-contato.html">
+        	<a href="novo-contato.jsp">
         		<input type="button" value="Novo" />
        		</a>
         </div><br />
@@ -33,7 +32,7 @@
                         		<a href="mailto:${contato.email}">${contato.email}</a>
                         	</c:when>
                         	<c:otherwise>
-                        		E-mail n√£o informado
+                        		E-mail n„o informado
                         	</c:otherwise>
                         </c:choose>
                     </td>

@@ -1,5 +1,3 @@
-
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.*, br.com.caelum.agenda.dao.*, br.com.caelum.agenda.model.*, java.text.SimpleDateFormat" %>
 <!DOCTYPE html>
