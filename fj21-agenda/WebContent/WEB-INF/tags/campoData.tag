@@ -1,6 +1,10 @@
 <%@ attribute name="id" required="true" %>
 
-<input id="${id}" name="${id}" />
+<input id="${id}" name="${id}" size="20" />
 <script>
-	$("#${id}").datepicker({dateFormat: 'dd/mm/yy'});
+	$("#${id}").datepicker({
+		dateFormat: 'dd/mm/yy',
+		changeMonth: true,
+		changeYear: true
+	});
 </script>
