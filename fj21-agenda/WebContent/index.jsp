@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Contatos</title>
+		<title>Agenda</title>
 	</head>
 	<body>
 		<c:import url="cabecalho.jsp" />
